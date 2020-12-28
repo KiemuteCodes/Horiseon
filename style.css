@@ -9,15 +9,17 @@ body {
 }
 
 .header {
-    padding: 20px;
+    padding: 20px 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: inline-block;
+    
 }
 
 .header h1 {
-    display: inline-block;
     font-size: 48px;
+
 }
 
 .header h1 .seo {
@@ -33,14 +35,13 @@ body {
     float: right;
 }
 
-.header div ul {
-    text-align: right;
-    list-style-type: none;
+.header nav {
+    float:left;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-right: 25px;
+.header ul li {
+    margin: 25px;
+    float: right;
 }
 
 a {
@@ -53,7 +54,6 @@ p {
 }
 
 .hero {
-    height: 500px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
