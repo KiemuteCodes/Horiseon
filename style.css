@@ -8,6 +8,8 @@ body {
     background-color: #e7d8e2;
 }
 
+/*Header Styles Begin */
+
 .header {
     padding: 20px 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,6 +54,9 @@ a {
 p {
     font-size: 16px;
 }
+
+/* Header Styles End */
+/* Hero Section Style Begins*/
 
 .hero {
     width: 100%;
@@ -195,8 +200,11 @@ p {
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 36px;  
 }
+
+/*End Hero Section Style*/
+/*Begin Footer Style*/
 
 .footer {
     padding: 30px;
@@ -208,4 +216,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-   
+
+/*End Page Style*/ 
